@@ -13,7 +13,7 @@ export default class Geocoder {
   constructor(options) {
     this._ev = new EventEmitter();
     this.options = options;
-    this.api = options && options.api || 'https://api.mapbox.com/geocoding/v5/mapbox.places/';
+    this.api = options && options.api || 'https://geocoder.vietmaps.vn/geocoding/search/';
   }
 
   onAdd(map) {
@@ -100,8 +100,8 @@ export default class Geocoder {
       return key + '=' + geocodingOptions[key];
     });
 
-    var accessToken = this.options.accessToken ? this.options.accessToken : mapboxgl.accessToken;
-    options.push('access_token=' + accessToken);
+    // var accessToken = this.options.accessToken ? this.options.accessToken : mapboxgl.accessToken;
+    // options.push('access_token=' + accessToken);
     this.request.abort();
     this.request.open('GET', this.api + encodeURIComponent(q.trim()) + '.json?' + options.join('&'), true);
     this.request.onload = function() {

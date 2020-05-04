@@ -3,7 +3,7 @@ import deepAssign from 'deep-assign';
 
 const initialState = {
   // Options set on initialization
-  api: 'https://api.mapbox.com/directions/v5/',
+  api: 'https://map-routing.aicloud.vn/route/v1/',
   profile: 'mapbox/driving-traffic',
   alternatives: false,
   congestion: false,
@@ -12,7 +12,7 @@ const initialState = {
   placeholderOrigin: 'Choose a starting place',
   placeholderDestination: 'Choose destination',
   zoom: 16,
-  language: 'en',
+  // language: 'en',
   compile: null,
   proximity: false,
   styles: [],

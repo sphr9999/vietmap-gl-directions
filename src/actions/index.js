@@ -67,9 +67,10 @@ function fetchDirections() {
     options.push('overview=full');
     if (language) options.push('language='+language);
     if (exclude) options.push('exclude=' + exclude);
-    if (accessToken) options.push('access_token=' + accessToken);
+    // if (accessToken) options.push('access_token=' + accessToken);
     request.abort();
     request.open('GET', `${api}${profile}/${query}.json?${options.join('&')}`, true);
+    request.setRequestHeader('Authorization', 'Bearer ' + accessToken)
 
     request.onload = () => {
       if (request.status >= 200 && request.status < 400) {

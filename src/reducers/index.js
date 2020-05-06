@@ -3,7 +3,7 @@ import deepAssign from 'deep-assign';
 
 const initialState = {
   // Options set on initialization
-  api: 'https://map-routing.aicloud.vn/route/v1/',
+  api: 'https://api.vietmaps.vn/route/v1/',
   profile: 'mapbox/driving-traffic',
   alternatives: false,
   congestion: false,

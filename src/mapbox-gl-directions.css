@@ -187,9 +187,13 @@
     }
 
 /* Inputs */
-.mapbox-directions-origin,
+.mapbox-directions-origin{
+  z-index: 100;
+}
+
 .mapbox-directions-destination {
   position:relative;
+  z-index: 0;
   }
 
 .mapbox-form-label {

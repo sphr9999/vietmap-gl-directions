@@ -4,7 +4,7 @@ import deepAssign from 'deep-assign';
 const initialState = {
   // Options set on initialization
   api: 'https://api.vietmaps.vn/route/v1/',
-  profile: 'mapbox/driving-traffic',
+  profile: 'driving',
   alternatives: false,
   congestion: false,
   unit: 'imperial',

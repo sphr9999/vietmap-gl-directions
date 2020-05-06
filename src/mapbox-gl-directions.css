@@ -248,6 +248,7 @@
   padding:2px;
   border-radius:15px;
   vertical-align:middle;
+  height: 30px;
   }
   .mapbox-directions-profile label {
     cursor:pointer;

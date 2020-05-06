@@ -82,7 +82,7 @@ export default class Geocoder {
     // Override the control being added to control containers
     if (this.options.container) this.options.position = false;
 
-    this._typeahead = new Typeahead(input, [], {filter: false});
+    this._typeahead = new Typeahead(input, [], {filter: false, limit:10});
     this._typeahead.getItemValue = function (item) {
       return item.place_name;
     };

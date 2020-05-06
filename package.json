@@ -1,6 +1,6 @@
 {
   "name": "vietmap-gl-directions",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "A mapboxgl plugin for the Mapbox Directions API",
   "main": "./src/index.js",
   "browserify": {

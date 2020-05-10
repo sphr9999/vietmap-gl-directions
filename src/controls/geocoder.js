@@ -13,7 +13,7 @@ export default class Geocoder {
   constructor(options) {
     this._ev = new EventEmitter();
     this.options = options;
-    this.api = options && options.api || 'https://api.vietmaps.vn/search/geocoders/';
+    this.api = options && options.api || 'https://api.vietmaps.vn/search/geocoders/q/';
   }
 
   onAdd(map) {

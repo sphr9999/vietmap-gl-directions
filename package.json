@@ -43,7 +43,7 @@
     "brfs": "^1.4.1",
     "browserify": "^13.0.1",
     "budo": "^8.3.0",
-    "documentation": "^4.0.0-beta16",
+    "documentation": "^14.0.0",
     "eslint": "^2.13.1",
     "insert-css": "^2.0.0",
     "json-loader": "0.5.4",

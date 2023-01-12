@@ -42,7 +42,7 @@
     "babel-plugin-object-assign": "^1.2.1",
     "brfs": "^1.4.1",
     "browserify": "^13.0.1",
-    "budo": "^8.3.0",
+    "budo": "^11.8.4",
     "documentation": "^4.0.0-beta16",
     "eslint": "^2.13.1",
     "insert-css": "^2.0.0",
